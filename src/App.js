@@ -9,10 +9,11 @@ function App() {
   return (
       <div className="App">
         <div className="App-header">
-          <Router>
-            <Route exact path="/" component={() => <Home/>}/>
-            <Route path="/:week" render={({match}) => <Weekly match={match}/>}/>
-          </Router>
+          {/*<Router>*/}
+            {/*<Route exact path="/" component={() => <Home/>}/>*/}
+            {/*<Route path="/:week" render={({match}) => <Weekly match={match}/>}/>*/}
+          {/*</Router>*/}
+          HAHAHA
         </div>
       </div>
   );
