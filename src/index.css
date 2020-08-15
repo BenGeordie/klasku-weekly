@@ -1,0 +1,31 @@
+:root {
+  --salmon: #E76969;
+  --warmWhite: #F9F7F3;
+  --paraBlack: rgba(0, 0, 0, 0.6);
+  --paraWhite: rgba(255, 255, 255, 0.8);
+  --sizeH1: 6vw;
+  --sizeP: 4vw;
+  --smallFontLandscapeCutoff: 1299px;
+  --smallFontPortraitCutoff: 499px;
+}
+
+@media only screen and (orientation: landscape) {
+  :root {
+    --sizeH1: 3vw;
+    --sizeP: 1.5vw;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}

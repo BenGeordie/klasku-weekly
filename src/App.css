@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: var(--warmWhite);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--sizeP);
+  color: black;
+}
+
+.plain {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  width: 70%;
+}
+
+.weekly {
+
+}
+
+.block {
+
+}
+
+.block.even {
+  background-color: var(--warmWhite);
+}
+
+.block.odd {
+  background-color: var(--salmon);
+}
+
+.block-image {
+  width: 100%;
+}
+
+.textBlock {
+  padding: 1em 3.5em 2.5em 1.8em;
+  text-align: start;
+}
+
+.textBlock-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: var(--sizeH1);
+  margin-bottom: 0.5em;
+}
+
+.textBlock-title.even {
+  color: var(--salmon);
+}
+
+.textBlock-title.odd {
+  color: var(--warmWhite)
+}
+
+.textBlock-body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: var(--sizeP);
+  margin-bottom: 1.5em;
+}
+
+.textBlock-body.even {
+  color: var(--paraBlack);
+}
+
+.textBlock-body.odd {
+  color: var(--paraWhite);
+}
+
+@media only screen and (orientation: landscape) {
+  .plain {
+  }
+
+  .weekly {
+  }
+
+  .block {
+    display: flex;
+    padding: 15% 0;
+  }
+
+  .block-image {
+    width: 60%;
+  }
+
+  .textBlock {
+    width: 25%;
+    padding: 0 10% 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .textBlock-title {
+
+  }
+
+  .textBlock-body {
+
+  }
+}
