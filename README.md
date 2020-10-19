@@ -1,3 +1,5 @@
+Klasku-weekly is a website where parents can view compilations of the week's classroom activities logged by teachers through Klasku
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
